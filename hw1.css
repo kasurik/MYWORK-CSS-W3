@@ -1,0 +1,163 @@
+/* The body should have padding and margin */
+
+body {
+    margin: 10px; 
+    padding: 0px 10px 0px  10px;
+  
+  }
+  /* The header should have a background color, background image (using a local image), and padding */
+  header {
+    background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background-color:#669900;
+    background-repeat: no-repeat;
+    height:135px;
+    background-size:cover;
+    background-position:25% 0%;
+    padding:25px;
+    background-origin:padding-box;
+    text-align:center;  
+  }
+  
+
+  h1 {
+     color:#ffffff;
+    margin-top:5px;
+    padding-bottom:20px;
+    text-transform:uppercase;
+    font-size: 150%;
+
+}
+   
+
+  
+  /* The link to the current page should be styled differently from the other links (using class = "active') */
+  nav a {
+    color:#000000;
+    background:#e6e6e6;
+    text-decoration:none;
+    padding:16px 80px;
+    border-radius:5px;
+    font-variant:normal;
+    text-align:center;
+    margin-right:auto;
+    font-weight:600;
+    margin: 50px 30px 30px 20px;
+    border:1 px solid;
+    background-color: rgba(255, 255, 255,0.2);
+
+  }
+
+  
+  nav .active {
+  
+    color:#0000ff;
+    background-color: #ffffff;
+  }
+
+  nav a:hover{
+  
+    color:#0000ff;
+    background-color: #ffffff;
+  }
+
+/* Two sections side-by-side */
+
+  .left{
+  
+    background-color:#4d6600;
+    width:20% ;
+    padding: 0.5%;
+    float: left;
+    height:760px;
+    margin-bottom:1.5%;
+  }
+    
+  .right{
+    background: #ffffff;
+    width:78.5% ;
+    float: right;
+    text-align: left;
+    padding-left:0.5%;  
+  }
+
+  
+  h2 {
+    color:#000000;
+   font-weight: 600;
+   font-size: 30px;
+
+}
+ 
+  
+/* img styles */
+
+  .left img{
+  
+    background-color:#4d6633;
+    width:200px ;
+    height:150px;
+    border-radius:2px;
+    border:2px solid #000000;
+    display:block;
+    margin:20px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ /* The table should be styled using at least four properties */ 
+
+  table{ 
+    
+    width:70%;
+    height:40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+/*  Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+
+table  th:first-child, table td:first-child{
+    
+  text-align: left;
+
+}
+
+/* The table headings should have a border, background color, and at least one other property */
+
+table tr th{
+   background:#90A05B;
+   color:#fff;
+   padding:1rem;
+   border-top:1px solid #fff;
+   border-right:1px solid #fff; 
+   border-bottom:3px solid #AAE06B;
+   border-left:1px solid #fff;
+   border-radius: 4px;
+   
+  }
+
+/* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)  
+The table elements < td > should be styled using at least four properties*/
+
+table tr td{
+   background:#E2F5D7;
+   opacity:0.8;
+   padding:1rem;
+   border:1px solid #fff;
+  
+  }
+
+/* Change the opacity of a row when it is hovered over */
+
+table tr th:hover, table tr td:hover{
+  opacity:0.5;
+  cursor:pointer;
+  }
+
+
+
+ 
